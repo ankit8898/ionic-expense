@@ -1,5 +1,4 @@
-angular.module('starter.controllers', [])
-.controller('PlaylistShowCtrl', function($scope, $stateParams) {
+app.controller('PlaylistShowCtrl', function($scope, $stateParams) {
   var playlists = [
     { title: 'Reggae', id: 1 },
     { title: 'Chill', id: 2 },
@@ -9,7 +8,5 @@ angular.module('starter.controllers', [])
     { title: 'Cowbell', id: 6 }
   ];
 
-    $scope.playlist = function() {
-      return "Ankit"
-    }
+    $scope.playlist = 'Ankush'
 });

@@ -1,5 +1,4 @@
-angular.module('starter.controllers', [])
-.controller('PlaylistIndexCtrl', function($scope) {
+app.controller('PlaylistIndexCtrl', function($scope) {
   $scope.playlists = [
     { title: 'Reggae', id: 1 },
     { title: 'Chill', id: 2 },
@@ -8,5 +7,6 @@ angular.module('starter.controllers', [])
     { title: 'Rap', id: 5 },
     { title: 'Cowbell', id: 6 }
   ];
+
 })
   

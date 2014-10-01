@@ -1,6 +1,6 @@
-angular.module('starter.controllers', [])
+//angular.module('starter.controllers', [])
 
-.controller('MainCtrl', function($scope, $ionicModal, $timeout) {
+app.controller('MainCtrl', function($scope, $ionicModal, $timeout) {
   // Form data for the login modal
   $scope.loginData = {};
 
@@ -32,4 +32,5 @@ angular.module('starter.controllers', [])
     }, 1000);
   };
 })
+
 
